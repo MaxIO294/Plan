@@ -134,6 +134,18 @@
     <Compile Include="Arkusz2.vb">
       <DependentUpon>Plan treningowy 2.0.xlsm</DependentUpon>
     </Compile>
+    <Compile Include="Arkusz3.Designer.vb">
+      <DependentUpon>Arkusz3.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="Arkusz3.vb">
+      <DependentUpon>Plan treningowy 2.0.xlsm</DependentUpon>
+    </Compile>
+    <Compile Include="Arkusz4.Designer.vb">
+      <DependentUpon>Arkusz4.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="Arkusz4.vb">
+      <DependentUpon>Plan treningowy 2.0.xlsm</DependentUpon>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="Ribbon1.Designer.vb">
       <DependentUpon>Ribbon1.vb</DependentUpon>
@@ -188,6 +200,16 @@
       <DependentUpon>Arkusz2.vb</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Arkusz3.Designer.xml">
+      <DependentUpon>Arkusz3.vb</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Arkusz4.Designer.xml">
+      <DependentUpon>Arkusz4.vb</DependentUpon>
+    </None>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -222,6 +244,8 @@
         <Host Name="Excel Document" Path=".\Plan treningowy 2.0.xlsm">
           <HostItem Name="Arkusz1" Code="Arkusz1.vb" CanonicalName="Arkusz1" DisplayName="Plan" Blueprint="Arkusz1.Designer.xml" GeneratedCode="Arkusz1.Designer.vb" />
           <HostItem Name="Arkusz2" Code="Arkusz2.vb" CanonicalName="Arkusz2" DisplayName="Ćwiczenia" Blueprint="Arkusz2.Designer.xml" GeneratedCode="Arkusz2.Designer.vb" />
+          <HostItem Name="Arkusz3" Code="Arkusz3.vb" CanonicalName="Arkusz3" DisplayName="Klient" Blueprint="Arkusz3.Designer.xml" GeneratedCode="Arkusz3.Designer.vb" />
+          <HostItem Name="Arkusz4" Code="Arkusz4.vb" CanonicalName="Arkusz4" DisplayName="Spotkania" Blueprint="Arkusz4.Designer.xml" GeneratedCode="Arkusz4.Designer.vb" />
           <HostItem Name="ThisWorkbook" Code="ThisWorkbook.vb" CanonicalName="ThisWorkbook" Blueprint="ThisWorkbook.Designer.xml" GeneratedCode="ThisWorkbook.Designer.vb" />
         </Host>
       </FlavorProperties>

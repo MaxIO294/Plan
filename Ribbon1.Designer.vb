@@ -43,10 +43,10 @@
     Private Sub InitializeComponent()
         Me.Tab1 = Me.Factory.CreateRibbonTab
         Me.Group1 = Me.Factory.CreateRibbonGroup
-        Me.Group2 = Me.Factory.CreateRibbonGroup
-        Me.Group3 = Me.Factory.CreateRibbonGroup
         Me.Button1 = Me.Factory.CreateRibbonButton
+        Me.Group2 = Me.Factory.CreateRibbonGroup
         Me.Button2 = Me.Factory.CreateRibbonButton
+        Me.Group3 = Me.Factory.CreateRibbonGroup
         Me.Button3 = Me.Factory.CreateRibbonButton
         Me.Tab1.SuspendLayout()
         Me.Group1.SuspendLayout()
@@ -69,27 +69,27 @@
         Me.Group1.Label = "Group1"
         Me.Group1.Name = "Group1"
         '
+        'Button1
+        '
+        Me.Button1.Label = "Button1"
+        Me.Button1.Name = "Button1"
+        '
         'Group2
         '
         Me.Group2.Items.Add(Me.Button2)
         Me.Group2.Label = "Group2"
         Me.Group2.Name = "Group2"
         '
+        'Button2
+        '
+        Me.Button2.Label = "Button2"
+        Me.Button2.Name = "Button2"
+        '
         'Group3
         '
         Me.Group3.Items.Add(Me.Button3)
         Me.Group3.Label = "Group3"
         Me.Group3.Name = "Group3"
-        '
-        'Button1
-        '
-        Me.Button1.Label = "Button1"
-        Me.Button1.Name = "Button1"
-        '
-        'Button2
-        '
-        Me.Button2.Label = "Button2"
-        Me.Button2.Name = "Button2"
         '
         'Button3
         '

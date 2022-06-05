@@ -9,5 +9,7 @@ Public Class ri_Plan
     Private Sub Button1_Click(sender As Object, e As RibbonControlEventArgs) Handles Button1.Click
         Me.Button2.Enabled = False
         Me.Button3.Enabled = False
+
+
     End Sub
 End Class

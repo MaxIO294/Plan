@@ -14,16 +14,16 @@ Option Explicit On
 
 
 '''
-<Microsoft.VisualStudio.Tools.Applications.Runtime.StartupObjectAttribute(4),  _
+<Microsoft.VisualStudio.Tools.Applications.Runtime.StartupObjectAttribute(1),  _
  Global.System.Security.Permissions.PermissionSetAttribute(Global.System.Security.Permissions.SecurityAction.Demand, Name:="FullTrust")>  _
-Partial Public NotInheritable Class Arkusz2
+Partial Public NotInheritable Class Arkusz3
     Inherits Microsoft.Office.Tools.Excel.WorksheetBase
     
     '''
     <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.ComponentModel.EditorBrowsableAttribute(Global.System.ComponentModel.EditorBrowsableState.Never)>  _
     Public Sub New(ByVal factory As Global.Microsoft.Office.Tools.Excel.Factory, ByVal serviceProvider As Global.System.IServiceProvider)
-        MyBase.New(factory, serviceProvider, "Arkusz2", "Arkusz2")
+        MyBase.New(factory, serviceProvider, "Arkusz3", "Arkusz3")
     End Sub
     
     '''
@@ -32,7 +32,7 @@ Partial Public NotInheritable Class Arkusz2
      Global.System.ComponentModel.EditorBrowsableAttribute(Global.System.ComponentModel.EditorBrowsableState.Never)>  _
     Protected Overrides Sub Initialize()
         MyBase.Initialize
-        Globals.Arkusz2 = Me
+        Globals.Arkusz3 = Me
         Global.System.Windows.Forms.Application.EnableVisualStyles
         Me.InitializeCachedData
         Me.InitializeControls
@@ -146,15 +146,15 @@ End Class
 
 Partial Friend NotInheritable Class Globals
     
-    Private Shared _Arkusz2 As Arkusz2
+    Private Shared _Arkusz3 As Arkusz3
     
-    Friend Shared Property Arkusz2() As Arkusz2
+    Friend Shared Property Arkusz3() As Arkusz3
         Get
-            Return _Arkusz2
+            Return _Arkusz3
         End Get
         Set
-            If (_Arkusz2 Is Nothing) Then
-                _Arkusz2 = value
+            If (_Arkusz3 Is Nothing) Then
+                _Arkusz3 = value
             Else
                 Throw New System.NotSupportedException()
             End If

@@ -14,7 +14,7 @@ Option Explicit On
 
 
 '''
-<Microsoft.VisualStudio.Tools.Applications.Runtime.StartupObjectAttribute(1),  _
+<Microsoft.VisualStudio.Tools.Applications.Runtime.StartupObjectAttribute(3),  _
  Global.System.Security.Permissions.PermissionSetAttribute(Global.System.Security.Permissions.SecurityAction.Demand, Name:="FullTrust")>  _
 Partial Public NotInheritable Class Arkusz1
     Inherits Microsoft.Office.Tools.Excel.WorksheetBase
