@@ -1,15 +1,27 @@
 ﻿Imports Microsoft.Office.Tools.Ribbon
 
 Public Class ri_Plan
-
-    Private Sub Ribbon1_Load(ByVal sender As System.Object, ByVal e As RibbonUIEventArgs) Handles MyBase.Load
+    Private Sub bt_Klient_Click(sender As Object, e As RibbonControlEventArgs) Handles bt_Klient.Click
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As RibbonControlEventArgs) Handles Button1.Click
-        Me.Button2.Enabled = False
-        Me.Button3.Enabled = False
+    Private Sub bt_Spotkanie_Click(sender As Object, e As RibbonControlEventArgs) Handles bt_Spotkanie.Click
 
+    End Sub
+
+    Private Sub bt_PomiarMasy_Click(sender As Object, e As RibbonControlEventArgs) Handles bt_PomiarMasy.Click
+
+    End Sub
+
+    Private Sub bt_MasaWykres_Click(sender As Object, e As RibbonControlEventArgs) Handles bt_MasaWykres.Click
+
+    End Sub
+
+    Private Sub bt_PomiarObwodów_Click(sender As Object, e As RibbonControlEventArgs) Handles bt_PomiarObwodów.Click
+
+    End Sub
+
+    Private Sub bt_WykresObwodów_Click(sender As Object, e As RibbonControlEventArgs) Handles bt_WykresObwodów.Click
 
     End Sub
 End Class
