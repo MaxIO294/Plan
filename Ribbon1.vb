@@ -2,7 +2,8 @@
 
 Public Class ri_Plan
     Private Sub bt_Klient_Click(sender As Object, e As RibbonControlEventArgs) Handles bt_Klient.Click
-
+        Dim frm As frm_DaneKlienta
+        frm.Show(Me)
     End Sub
 
     Private Sub bt_Spotkanie_Click(sender As Object, e As RibbonControlEventArgs) Handles bt_Spotkanie.Click
